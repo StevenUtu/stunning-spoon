@@ -10,5 +10,4 @@ for i in range(s):
     print("*" * (1 + i), end="")
     print(" " * (i + 1), end="")
     print("_" * (s - 1 - i), end="")
-    print("" * s, end="")
     print("" * (i))
