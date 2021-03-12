@@ -1,13 +1,24 @@
 while True:
-    s = int(input("Y: "))
+    z = int(input("Y: "))
 
-    if (s >= 0 and s <= 12):
+    if (z >= 0 and z <= 20):
         break
 
-for i in range(s):
+for x in range(z):
 
-    print("_" * (s - 1 - i), end="")
-    print("*" * (1 + i), end="")
-    print(" " * (i + 1), end="")
-    print("_" * (s - 1 - i), end="")
-    print("" * (i))
+    print("-" * (z-x) + "*" * x + " " * x + "-" * (z-x))
+
+
+
+# while True:
+#     s = int(input("Y: "))
+#     if (s >= 0 and s <= 12):
+#         break
+
+# for i in range(1, s, 1):
+
+#     print("_" * (s - i), end="")
+#     print("*" * (i), end="")
+#     print(" " * (i), end="")
+#     print("_" * (s - i), end="")
+#     print("")
