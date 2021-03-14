@@ -11,6 +11,7 @@ class Darbuotojai:
 
     def duomenys(self):
         print('{} {} {} {}'.format(self.vardas, self.pavarde, self.atllyginimas, self.email))
+        # atllyginimas ne atlyginimas
 
 user_1 = Darbuotojai('Vardenis', 'Pavardenis', '4854')
 user_2 = Darbuotojai('Vardenė', 'Pavardenė', '7910')
