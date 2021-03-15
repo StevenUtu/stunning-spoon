@@ -1,7 +1,8 @@
 
 
 <p align="left">
-  <img src="https://github.com/wordsguy/stunning-spoon/blob/main/444.png" width="250" title="ASCII Art Pyramid">
+  <img src="https://github.com/wordsguy/stunning-spoon/blob/main/444.png" width="300" title="ASCII Art Pyramid">
+  <img src="https://github.com/wordsguy/stunning-spoon/blob/main/0.png" width="250" title="ASCII Art Pyramid">
 </p>
 
 
