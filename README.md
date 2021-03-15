@@ -1,11 +1,8 @@
 
 
 <p align="left">
-  <img src="https://github.com/wordsguy/stunning-spoon/blob/main/13.png" width="250" title="website">
-  <img src="https://github.com/wordsguy/stunning-spoon/blob/main/1.png" width="250" title="website">
-  
+  <img src="https://github.com/wordsguy/stunning-spoon/blob/main/a_001.png.png" width="450" title="ASCII Art Pyramid">
 </p>
-
 
 
 	alt + 35
