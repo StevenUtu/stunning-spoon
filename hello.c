@@ -12,3 +12,13 @@ int main(void)
 // clang -o hello hello.c
 // ./hello
 // mv hello.c hello2.c
+
+
+// #include <stdio.h>
+
+// int main(void)
+
+// {
+//     char c = 'a';
+//     printf("%i\n", (int) c);
+// }
