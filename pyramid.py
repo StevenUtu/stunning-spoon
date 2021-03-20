@@ -1,7 +1,7 @@
 while True:
     z = int(input("Y: "))
 
-    if (z >= 0 and z <= 20):
+    if 0 <= z <= 20:
         break
 
 for x in range(z):
