@@ -1,7 +1,7 @@
 success = "Success"
 exit = "EXIT"
 error = 'ERROR'
-yesAnswers = ['yes', 'y', 'sure!', ''];
+yesAnswers = ['yes', 'y', 'sure!', '']
 noAnswers = ['no', 'n', 'nope']
 
 answer = input('Yes/No or Enter: ').lower().strip()
