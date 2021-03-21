@@ -1,18 +1,18 @@
-success = "Success"
-exit = "EXIT"
+answer = input('Do you have a problem in your code? (Yes/No or Enter) : ').lower().strip()
+can = "Can you do something about that problem (Yes/No or Enter) : "
+exit = "Then don't worry about it"
 error = 'ERROR'
-yesAnswers = ['yes', 'y', 'sure!', '']
+yesAnswers = ['yes', 'y', 'sure!', 'yea', 'yeah', 'ye', 'si', '']
 noAnswers = ['no', 'n', 'nope']
 
-answer = input('Yes/No or Enter: ').lower().strip()
-
 if answer in yesAnswers:
-    print(success)
-elif answer in noAnswers:
-    print(exit)
+    answer = input(can).lower().strip()
+    if answer in yesAnswers:
+        print(exit)
+    if answer in noAnswers:
+        print(exit)
 else:
     print(error)
-
 
 
 # i = input('Do you have a problem in your life? (yes/no) : ')
