@@ -4,7 +4,7 @@
 #         title: str,
 #         name: str,
 #         power_score: int,
-#         biography: str = 'Not much is known about this character',
+#         biography: str
 #     ):
 #         self.title = title
 #         self.name = name
@@ -55,10 +55,10 @@
 #     print('\nYou have selected', end=' ')
 #     if is_hero:
 #         print('to be a hero')
-#         character = Character('Barbarian', 'Cider', 4854)
+#         character = Character('Barbarian', 'Cider', 4854, 'Not much is known about this character')
 #     else:
 #         print('not to be a hero')
-#         character = Character('Lord', 'Cido', 7910)
+#         character = Character('Lord', 'Cido', 7910, 'Not much is known about this character')
 
 #     print("\nYour character's profile:")
 #     print(character.data)
